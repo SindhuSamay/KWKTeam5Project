@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* color dump!
+    - pale muted pink: #f2cfcf
+    - gray: #f2ebe9
+    - medium pink: #dd92b8
+    - hot pink: #de5499
+    - forest green: #375f62
+    - lighter sage green: #478646
+    - yellow: #e99f4c */
+/* body {
+  background-color: #f2cfcf;
+} */
+
+
+/* assorted homepage things: */
+
+  .title{
+    color: #375f62;
+    padding: 3%;
+    font-size: 6vw;;
+    text-align: center;
+    margin:0px;
+    font-family: Playfair Display;
+    letter-spacing: .5vw;
+
+  }
+
+  .titlebox{
+    background-color: #f2cfcf;
+    margin: 0px;
+    /* border-radius: 15px; */
+
+  }
+
+  .link-bar-box{
+    display: flex;
+    justify-content: space-around;
+    background-color: #de5499;
+    margin: 0px;
+    /* border-radius: 15px; */
+  }
+
+  .link-bar{
+    color:#f2cfcf;
+    font-size: 3vw;
+    padding: 2%;
+    margin: 0px;
+    font-family: Playfair Display;
+    text-decoration: none;
+  }
+
+  /* dropdown menu */
+    .dropbtn {
+      border: none;
+      background-color:#de5499;
+      color:#f2cfcf;
+      font-family: Playfair Display;
+      font-size: 3vw;
+      padding-left: 5px;
+      padding-right: 5px;
+      /* "learn" looks weird when you open the website in a new tab without padding top 15px */
+      padding-top: 16px;
+      margin-top: 10px;
+    }
+
+    .highlight-drop {
+      border: none;
+      background-color:#de5499;
+      color:white;
+      border-style: solid;
+      border-color: antiquewhite;
+      padding-left: 5px;
+      padding-right: 5px;
+      /* padding-top: 15px; */
+      margin-top: 18px;
+      border-width: 2px;
+      font-family: Playfair Display;
+      font-size: 3vw;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color:#f2cfcf;
+      /* border-radius: 15px; */
+    }
+
+    .dropdown-content a{
+      color:#375f62;
+      font-family: Playfair Display;
+      font-size: 2vw;
+      padding: 8px;
+      text-decoration: none;
+      display: block;
+      box-shadow: 0 0 3px #666
+    }
+
+    .dropdown-content a:hover {
+      /* color: white; */
+      background-color: #e99f4c;
+    }
+
+    .dropdown:hover .dropdown-content {
+      /* color: white; */
+      display: block;
+    }
+
+  /* end of dropdown menu */
+
+  .highlight{
+    color:white;
+    border-style: solid;
+    border-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: 2px;
+    font-size: 3vw;
+    margin: 2%;
+    font-family: Playfair Display;
+    text-decoration: none;
+  }
+
+  .banner{
+    width: 70%;
+    height: 50vh;
+    object-fit: cover;
+    border-style: solid;
+    border-color: #f4c38a;
+    border-width: 8px;
+    border-radius: 3px;
+
+  }
+
+  button:hover{
+    color: white;
+  }
+
+  a:hover{
+    color: white;
+  }
+
+  .bannerbox{
+    background-color: #76ad95;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+
+  }
+
+  .greenbox{
+    background-color: #76ad95;
+    display: flex;
+    border-radius: 3px;
+
+  }
+
+  .greenboxImage{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin:1%;
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #375f62;
+    border-width: 8px;
+    border-radius: 3px;
+  }
+
+  .greenBoxText{
+    color: #375f62;
+    padding: 2%;
+    font-size: 150%;
+    font-family: Playfair Display;
+  }
+
+  .pinkbox{
+    background-color: #f2cfcf;
+    display: flex;
+    border-radius: 3px;
+
+  }
+
+  .pinkboxImage{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin:1%;
+    margin-right: 5%;
+    border-style: solid;
+    border-color: #f4c38a;
+    border-width: 8px;
+    border-radius: 3px;
+
+  }
+
+  .pinkBoxText{
+    color: #de5499;
+    padding: 2%;
+    font-size: 150%;
+    font-family: Playfair Display;
+  }
+
+  .greenTitle{
+    color:#1c3031;
+    padding-top: 3%;
+    font-family: Playfair Display;
+    text-decoration: none;
+    font-size: 6vw;
+  }
+
+   .pinkTitle{
+    color:#ab2166;
+    font-family: Playfair Display;
+    padding-top: 3%;
+    text-decoration: none;
+    font-size: 5.5vw;
+  }
+
+/* for the explore page below!: */
+ 
+  .lightPinkPBox{
+    background-color: #f2cfcf;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .lightGreenPBox{
+    background-color: #6db897;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .yellowPBox{
+    background-color: #f4c38a;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .gallery{
+    width: 24%;
+    margin: 3%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .galleryYellow{
+    width: 24%;
+    height: 12%;
+    margin: 3%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  /* For about page  */
+
+  .theNavy {
+    background-color:#375f62;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .theGreen{
+    background-color: #6db897;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;
+  }
+
+  .theYellow{
+    background-color: #f4c38a;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;  
+  }
+
+  .thePink{
+    background-color: #f2cfcf;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;
+  }
+
+  .about {
+    width: 25vw;
+    margin: 3%;
+    border-style: solid;
+    border-color: #375f62;
+    border-width: 1%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .greenText {
+    color: #375f62;
+    padding: 2%;
+    font-size: 2vw;
+    font-family: Playfair Display;
+  }
+
+  .yellowText {
+    color: #bb6c11;
+    padding: 2%;
+    font-size: 2vw;
+    font-family: Playfair Display;
+  }
+
+  .pinkText {
+    color: #de5499;
+    padding: 2%;
+    font-size: 2vw;
+    font-family: Playfair Display;
+  }
+
+  .missionText {
+    font-family: Playfair Display;
+    color: #FFf;
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 6%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .mission {
+    font-family: Playfair Display;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    padding-top:6%;
+    margin:5px; 
+    letter-spacing: 2%;
+  }
+
+  /* Donate page */
+
+  .tealDonate{
+    background-color:#6db897;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .fact{
+  font-family: Playfair Display;
+    color: black;
+    text-align: center;
+    font-size: 3vw;
+    padding-top:6%;
+    margin: 9px;
+  }
+
+  .tealText{
+    font-family: Playfair Display;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 6%;
+    margin: 7px;
+  }
+
+  .citation{
+  font-family: Playfair Display;
+    color: black;
+    margin:7px;
+    font-size: 2vw;
+    text-align: right;
+    padding-bottom: 6%;
+    padding-right:17%;
+  }
+
+  .yellowDonate {
+    background-color:#f4c38a;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .donate{
+    font-family: Playfair Display;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    margin: 7px;
+  }
+
+
+  .materials{
+    font-family: Playfair Display;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    margin: 7px;
+  }
+
+
+/* input on donate page  */
+  .donation {
+    margin: 10px auto;
+    width: 60%;
+  }
+
+  .donate-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background:antiquewhite;
+    border-radius: 3px;
+
+  }
+
+  .stuff {
+    width: 300px;
+    margin: 25px auto 5px auto;
+    padding: 5px;
+    font-size: 90%;
+    font-family: Playfair Display;
+    color: black;
+  }
+
+  .submition-btn {
+    width: 300px;
+    padding: 5px;
+    margin: 5px auto 25px auto;
+    background: #375f62;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 100%;
+    font-family: Playfair Display;
+  }
+
+  .submition-btn:hover {
+    width: 300px;
+    padding: 5px;
+    margin: 5px auto 25px auto;
+    background: grey;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    font-family: Playfair Display;
+    text-align: center;
+  }
+
+  .cardContainer {
+    padding: 10px;
+    background:#f2cfcf ;
+    border-radius: 3px;
+  }
+
+  .supply-card {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 80%;
+    background: #f2cfcf;
+    border-radius: 3px;
+    font-family: Playfair Display;
+    color: black;
+    font-size: 15px;
+    font-display: center;
+    text-align: center;
+  }
+
+
+/* Home page form and user friendly stuff */
+
+  .content {
+    margin: 10px auto;
+    width: 60%;
+    height: 70%;
+    /* 400px; */
+  }
+
+  .user-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background:antiquewhite;
+    border-radius: 3px;
+    height: 30%;
+
+  }
+
+  .name {
+    width: 70%;
+    margin: 25px auto 5px auto;
+    padding: 5px;
+    font-size: 90%;
+    font-family: Playfair Display;
+    text-align: center;
+  }
+
+  .submit-btn {
+    width: 40%;
+    height: 10%;
+    padding: 5px;
+    margin: 5px auto 25px auto;
+    background: #de5499;
+    border: none;
+    border-radius: 3px;
+    color: #f2cfcf;
+    font-size: 100%;
+    font-family: Playfair Display;
+    text-align: center;
+  }
+
+  .submit-btn:hover {
+    width: 40%;
+    padding: 5px;
+    margin: 5px auto 25px auto;
+    background: #de5499;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    font-family: Playfair Display;
+    text-align: center;
+  }
+
+  .card-container {
+    padding: 30px;
+    background: #375f62;
+    border-radius: 3px;
+    height: 30%;
+  }
+
+  .name-card {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 80%;
+    background: #375f62;
+    border-radius: 3px;
+    font-family: Playfair Display;
+    color: antiquewhite;
+    font-size: 3vw;
+    font-display: center;
+    text-align: center;
+  }
+
+
+/* for the lesson pages */
+  .lesson-banner{
+    width: 50%;
+    object-fit: cover;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #ebab62;
+    border-width: 6px;
+    margin-left: 25%;
+  }
+
+  .lesson-bannerbox{
+    background-color: #375f62;
+    padding: 1vh;
+    border-radius: 3px;
+  }
+
+  .lesson-title{
+    font-family: Playfair Display;
+    color: #f2cfcf;
+    text-align: center;
+    font-size: 2vw;
+    letter-spacing: 2px;
+  }
+
+  .lesson-intro{
+    font-family: Playfair Display;
+    color: #FFf;
+    font-size: 6vw;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  /* green boxes */
+  .lesson-greenBox{
+    background-color:#6db897;
+    padding: 2vh;
+    border-radius: 3px;
+    display: flex;
+  }
+
+  .lesson-image{
+    width: 30%;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+
+  .lesson-greenText{
+    padding: 2vh;
+    font-family: Playfair Display;
+    font-size: 3vh;
+    letter-spacing: 2px;
+    color: #375f62;
+  }
+
+  /* pink boxes */
+
+  .lesson-pinkBox{
+    background-color:#f2cfcf;
+    padding: 2vh;
+    border-radius: 3px;
+    display: flex;
+  }
+
+  .lesson-pinkText{
+    padding: 2vh;
+    font-family: Playfair Display;
+    letter-spacing: 2px;
+    color:#de5499;
+    font-size: 3vh;
+  }
+
+  /* try it page */
+  .tryitBoxG{
+    background-color: #375f62;
+    display: flex;
+    border-radius: 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  .tryitBoxGText{
+    color: antiquewhite;
+    padding: 2%;
+    font-size:20px;
+    font-family: Playfair Display;
+    text-align: center;
+  }
+
+  .big{
+    font-family: Playfair Display;
+    color: #375f62;
+    text-align: center;
+    font-size: 5vw;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+
+  .medium{
+    font-family: Playfair Display;
+    color: #375f62;
+    text-align: center;
+    font-size: 25px;
+    /* padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%; */
+
+  }
+
+  .tryitBoxP{
+    background-color:#f2cfcf;
+    padding: 2vh;
+    border-radius: 4px
+    /* height: 15%; */
+  }
+
+  .linksContainer{
+    display: flex;
+    justify-content:center;
+  }
+
+  .greyBox{
+    background-color: #f2ebe9;
+    color: #375f62;
+    border-radius: 4px
+  }
+
+  .yellowBox{
+    background-color: antiquewhite;
+    color: #375f62;
+    border-radius: 4px
+  }
+
+  .medium2{
+    font-family: Playfair Display;
+    color: #375f62;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 4px;
+  }
+
+  .medium3{
+    font-family: Playfair Display;
+    color: #375f62;
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 9px;
+
+  }
+
+  .tryitLink{
+    background-color: #de5499;
+    color: #f2cfcf;
+    font-family: Playfair Display;
+    margin: .5%;
+    padding: .5%;
+    border-radius: 4px;
+    text-decoration: none;
+  }
